@@ -1,0 +1,27 @@
+/*
+Pallete Colors:
+#B5FFE1
+#93E5AB
+#65B891
+#4E878C
+#00241B
+*/
+
+body {
+    background-color: #93E5AB;
+}
+
+.nav ul {
+    background-color: #00241B;
+}
+
+.nav li {}
+
+.nav li a {
+    color: #4E878C;
+}
+
+.nav li a:hover {
+    background-color: #65B891;
+    color: #00241B;
+}
