@@ -8,7 +8,16 @@ Pallete Colors:
 */
 
 body {
-    background-color: #93E5AB;
+    background-image: linear-gradient(#93E5AB, #00241B);
+}
+
+.header {
+    color: #00241B;
+}
+
+.footer {
+    background-color: #00241B;
+    color: #4E878C;
 }
 
 .nav ul {
@@ -24,4 +33,18 @@ body {
 .nav li a:hover {
     background-color: #65B891;
     color: #00241B;
+}
+
+hr {
+}
+
+.col33 {
+    color: #99dce2;
+    background-image: linear-gradient(#37685c, #00241B );
+}
+
+.general {
+    color: #99dce2;
+    border: 2px solid #99dce2;
+    background-image: linear-gradient(#37685c, #00241B);
 }

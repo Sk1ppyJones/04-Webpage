@@ -1,12 +1,53 @@
+.header {
+    text-align: center;
+    float: left;
+    font-size: 200px;
+    border: 2px solid #4E878C;
+    border-radius: 100px;
+    padding: 10px;
+    background-image: linear-gradient(#78d8bb, #4E878C);
+    box-shadow: black 10px 10px 30px;
+    margin-bottom: 2rem;
+}
+
+.header:hover {
+    transform: rotate(-5deg);
+}
+.header img {
+    border: 3px solid #008000;
+}
+
+.header img:hover {
+    filter: blur(2px);
+    transform: rotate(-20deg);
+}
+
+footer {
+    position: absolute;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    border: 2px solid #4E878C;
+}
+
+body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 0%;
     padding: 0.5rem;
     overflow: hidden;
+    border: 2px solid #4E878C;
 }
 
 .nav li {
-    float: left;
+    font-size: 20px;
+    float: right;
 }
 
 .nav li a {
@@ -14,6 +55,73 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    left: 30;
+}
+.nav img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.5%;
+    border: 2px solid #4E878C;
+}
+
+.nav img:hover {
+    transform: scale(500%);
+    top: 15%;
+    left: 15%;
 }
 
 .nav li a:hover {}
+
+.col33 {
+    text-align: center;
+    width: 30%;
+    padding: 1rem;
+    margin: 1.5%;
+    float: left;
+    border: 2px solid #78d8bb;
+}
+
+@media screen and (max-width: 756px) {
+    .col33 {
+        text-align: center;
+        width: 97%;
+        padding: 1rem;
+        margin: auto;
+        float: none;
+        border: none;
+    }
+}
+
+hr {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul img {
+    border: 1px solid #65B891;
+}
+
+.general {
+    text-align: center;
+    font-size: 25px;
+    width: 60%;
+    margin: 2%;
+    float: left;
+    padding: 0.5rem;
+}
+
+.generalimg {
+    margin-top: 2rem;
+    border: 2px solid #4E878C;
+}
+
+.template img{
+    border: 2px solid #4E878C;
+    margin-left: 10%;
+}
